@@ -1,0 +1,18 @@
+# Iron components snippets
+
+".text.html":
+  "iron-ajax":
+    "prefix": "iron-ajax"
+    "body": """
+    <iron-ajax
+            id="$1"
+            auto
+            url="$2"
+            handle-as="json"
+            on-response="handleResponse"></iron-ajax>
+    """
+  "iron-icon":
+    "prefix": "iron-icon"
+    "body": """
+    <iron-icon icon="$1"></iron-icon>
+    """
