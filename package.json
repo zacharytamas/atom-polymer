@@ -1,0 +1,16 @@
+{
+  "name": "atom-polymer",
+  "main": "./lib/atom-polymer",
+  "version": "0.0.0",
+  "description": "Develop for Polymer 1.0+ faster with Atom.",
+  "activationCommands": {
+    "atom-workspace": "atom-polymer:toggle"
+  },
+  "repository": "https://github.com/zacharytamas/atom-polymer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

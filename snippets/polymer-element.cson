@@ -1,0 +1,24 @@
+".text.html":
+  "polymer element":
+    "prefix": "pe"
+    "body": """
+    ${1:<link rel="import" href="../polymer/polymer.html">}
+
+    <dom-module id="$2">
+      <style>
+        :host {
+          display: block;
+        }
+      </style>
+      <template>
+        $4
+      </template>
+    </dom-module>
+
+    <script>
+      Polymer({
+        is: '$2',
+        $3
+      });
+    </script>
+    """
