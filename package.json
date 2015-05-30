@@ -1,7 +1,7 @@
 {
   "name": "atom-polymer",
   "main": "./lib/atom-polymer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Develop for Polymer 1.0+ faster with Atom.",
   "activationCommands": {
     "atom-workspace": "atom-polymer:toggle"
@@ -11,6 +11,5 @@
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
