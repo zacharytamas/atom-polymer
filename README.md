@@ -10,45 +10,92 @@ Develop for Polymer 1.0+ faster with Atom.
 
 #### [hii] Import Iron element
 
-    <link rel="import" href="${1:bower_components}/iron-$2/iron-$2.html">
+```html
+<link rel="import" href="${1:bower_components}/iron-$2/iron-$2.html">
+```
 
 #### [hip] Import Paper element
 
-    <link rel="import" href="${1:bower_components}/paper-$2/paper-$2.html">
+```html
+<link rel="import" href="${1:bower_components}/paper-$2/paper-$2.html">
+```
 
 #### [hi] Import generic element
 
-    <link rel="import" href="${1:bower_components}/${0}/${0}.html">
+```html
+<link rel="import" href="${1:bower_components}/${0}/${0}.html">
+```
 
 ### New element boilerplates
 
 #### [pe] Polymer element with template and style
 
-    ${1:<link rel="import" href="../polymer/polymer.html">}
+```html
+${1:<link rel="import" href="../polymer/polymer.html">}
 
-    <dom-module id="$2">
-      <style>
-        :host {
-          display: block;
-        }
-      </style>
-      <template>
-        $4
-      </template>
-    </dom-module>
+<dom-module id="$2">
+  <style>
+    :host {
+      display: block;
+    }
+  </style>
+  <template>
+    $4
+  </template>
+</dom-module>
 
-    <script>
-      Polymer({
-        is: '$2',
-        $3
-      });
-    </script>
+<script>
+  Polymer({
+    is: '$2',
+    $3
+  });
+</script>
+```
 
 #### [pen] Polymer element without template
 
-    <script>
-      Polymer({
-        is: '$1',
-        $2
-      });
-    </script>
+```html
+<script>
+  Polymer({
+    is: '$1',
+    $2
+  });
+</script>
+```
+
+### `<template>`
+
+#### [tm] Template tag
+
+```html
+<template>
+  $1
+</template>
+```
+
+#### [tm-repeat] Repeating template
+
+```html
+<template is="dom-repeat" items="{{$1}}">
+  $2
+</template>
+```
+
+#### [tm-if] Conditional template
+
+```html
+<template is="dom-if" if="$1">
+  $2
+</template>
+```
+
+### Paper elements
+
+#### `paper-drawer-panel`
+
+```html
+<paper-drawer-panel>
+  <div drawer>$1</div>
+  <div main>$2</div>
+</paper-drawer-panel>
+```

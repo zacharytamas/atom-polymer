@@ -1,0 +1,11 @@
+# Paper components snippets
+
+".text.html":
+  "paper drawer panel":
+    "prefix": "paper-drawer-panel"
+    "body": """
+    <paper-drawer-panel>
+      <div drawer>$1</div>
+      <div main>$2</div>
+    </paper-drawer-panel>
+    """

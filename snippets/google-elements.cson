@@ -1,0 +1,10 @@
+# GoogleWebComponents snippets
+
+".text.html":
+  "google-feeds":
+    "prefix": "google-feeds"
+    "body": """
+    <google-feeds feed="${1:http://www.engadget.com/rss-full.xml}"
+      results="{{${2:result}}}"></google-feeds>
+    $3
+    """
