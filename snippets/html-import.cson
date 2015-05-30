@@ -4,3 +4,15 @@
     "body": """
     <link rel="import" href="${1:bower_components}/${0}/${0}.html">
     """
+
+  "import iron-element":
+    "prefix": "hii"
+    "body": """
+    <link rel="import" href="${1:bower_components}/iron-$2/iron-$2.html">
+    """
+
+  "import paper-element":
+    "prefix": "hip"
+    "body": """
+    <link rel="import" href="${1:bower_components}/paper-$2/paper-$2.html">
+    """
