@@ -91,11 +91,15 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 
 ### Paper elements
 
-#### `paper-drawer-panel`
+We include snippets of these Paper elements with sensible defaults:
 
-```html
-<paper-drawer-panel>
-  <div drawer>$1</div>
-  <div main>$2</div>
-</paper-drawer-panel>
-```
+* `paper-drawer-panel`
+* `paper-toolbar`
+* `paper-tabs`
+
+### Iron elements
+
+We include snippets of these Iron elements with sensible defaults:
+
+* `iron-ajax`
+* `iron-icon`

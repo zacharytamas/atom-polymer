@@ -1,3 +1,8 @@
+## 0.4.0 - Adding more snippets
+* Added `paper-tabs` and `paper-toolbar` snippets.
+* Added `iron-ajax` and `iron-icon` snippets.
+* Big thanks to @daiying-zhang for contributing snippets!
+
 ## 0.3.0 - Adding more Polymer elements as snippets
 * Added `google-feeds` snippet.
 * Added `tm`, `tm-repeat`, and `tm-if` snippets.

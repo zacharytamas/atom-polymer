@@ -4,12 +4,11 @@
   "iron-ajax":
     "prefix": "iron-ajax"
     "body": """
-    <iron-ajax
-            id="$1"
-            auto
-            url="$2"
-            handle-as="json"
-            on-response="handleResponse"></iron-ajax>
+    <iron-ajax id="$1"
+      ${2:auto}
+      url="$3"
+      handle-as="json"
+      on-response="handleResponse"></iron-ajax>
     """
   "iron-icon":
     "prefix": "iron-icon"

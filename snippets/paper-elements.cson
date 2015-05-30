@@ -5,8 +5,8 @@
     "prefix": "paper-drawer-panel"
     "body": """
     <paper-drawer-panel>
-      <div drawer>$1</div>
-      <div main>$2</div>
+      <div drawer>${1:Drawer}</div>
+      <div main>${2:Main Panel}</div>
     </paper-drawer-panel>
     """
   "paper toolbar":
@@ -22,8 +22,8 @@
     "prefix": "paper-tabs"
     "body": """
     <paper-tabs selected="0">
-      <paper-tab>$1</paper-tab>
-      <paper-tab>$2</paper-tab>
-      <paper-tab>$3</paper-tab>
+      <paper-tab>${1:Tab 1}</paper-tab>
+      <paper-tab>${2:Tab 2}</paper-tab>
+      <paper-tab>${3:Tab 3}</paper-tab>
     </paper-tabs>
     """
