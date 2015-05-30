@@ -6,6 +6,7 @@
       $1
     </template>
     """
+
   "template dom-repeat":
     "prefix": "tm-repeat"
     "body": """
@@ -13,6 +14,7 @@
       $2
     </template>
     """
+
   "template dom-if":
     "prefix": "tm-if"
     "body": """
