@@ -22,3 +22,16 @@
       });
     </script>
     """
+
+  "polymer element no template":
+    "prefix": "pen"
+    "body": """
+    ${1:<link rel="import" href="../polymer/polymer.html">}
+
+    <script>
+      Polymer({
+        is: '$2',
+        $3
+      });
+    </script>
+    """
