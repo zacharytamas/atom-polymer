@@ -93,9 +93,10 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 
 We include snippets of these Paper elements with sensible defaults:
 
+* `paper-button`
 * `paper-drawer-panel`
-* `paper-toolbar`
 * `paper-tabs`
+* `paper-toolbar`
 
 ### Iron elements
 

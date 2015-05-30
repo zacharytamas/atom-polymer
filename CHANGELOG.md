@@ -1,5 +1,5 @@
 ## 0.4.0 - Adding more snippets
-* Added `paper-tabs` and `paper-toolbar` snippets.
+* Added `paper-tabs`, `paper-toolbar`, `paper-button` snippets.
 * Added `iron-ajax` and `iron-icon` snippets.
 * Big thanks to @daiying-zhang for contributing snippets!
 

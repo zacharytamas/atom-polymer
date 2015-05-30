@@ -27,3 +27,8 @@
       <paper-tab>${3:Tab 3}</paper-tab>
     </paper-tabs>
     """
+  "paper button":
+    "prefix": "paper-button"
+    "body": """
+    <paper-button ${1:raised}>${2:button}</paper-button>
+    """
