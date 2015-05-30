@@ -63,7 +63,24 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 </script>
 ```
 
-### `<template>`
+### [dom-module] A blank `dom-module` element
+
+This is handy if you need to add a visual presence to a Polymer element that did not necessarily need it before.
+
+```html
+<dom-module id="$1">
+  <style>
+    :host {
+      display: block;
+    }
+  </style>
+  <template>
+    $2
+  </template>
+</dom-module>
+```
+
+### <template> shortcuts
 
 #### [tm] Template tag
 
