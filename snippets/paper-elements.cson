@@ -9,7 +9,6 @@
       <div main>${2:Main Panel}</div>
     </paper-drawer-panel>
     """
-
   "paper toolbar":
     "prefix": "paper-toolbar"
     "body": """
@@ -19,7 +18,6 @@
       <paper-icon-button icon="$3" on-tap="moreAction"></paper-icon-button>
     </paper-toolbar>
     """
-
   "paper tabs":
     "prefix": "paper-tabs"
     "body": """
@@ -29,7 +27,6 @@
       <paper-tab>${3:Tab 3}</paper-tab>
     </paper-tabs>
     """
-
   "paper button":
     "prefix": "paper-button"
     "body": """

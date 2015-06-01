@@ -22,7 +22,6 @@
       });
     </script>
     """
-
   "polymer element no template":
     "prefix": "pen"
     "body": """
