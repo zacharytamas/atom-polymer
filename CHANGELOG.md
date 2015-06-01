@@ -1,3 +1,6 @@
+## 0.5.0 - Adding more snippets.
+* Added `paper-scroll-header-panel` snippet.
+
 ## 0.4.1 - Fix bug where sometimes snippets didn't register.
 
 ## 0.4.0 - Adding more snippets
