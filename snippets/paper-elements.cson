@@ -17,6 +17,14 @@
       <div>${2:Content goes here...}</div>
     </paper-scroll-header-panel>
     """
+  "paper header panel":
+    "prefix": "paper-header-panel"
+    "body": """
+    <paper-header-panel>
+      <paper-toolbar>${1:Header}</paper-toolbar>
+      <div>${2:Content goes here...}</div>
+    </paper-header-panel>
+    """  
   "paper toolbar":
     "prefix": "paper-toolbar"
     "body": """
@@ -40,3 +48,16 @@
     "body": """
     <paper-button ${1:raised}>${2:button}</paper-button>
     """
+  "paper-input-container":
+    "prefix": "paper-input"
+    "body": """
+    <paper-input-container id="$1">
+      <label>${2:Input label}</label>
+      <input is="iron-input"$3>
+    </paper--container>
+    """
+  "paper-textarea":
+    "prefix": "paper-textarea"
+    "body": """
+    <paper-textarea id="$1" label="${2:Textarea label}"$3></paper-textarea>
+    """  
