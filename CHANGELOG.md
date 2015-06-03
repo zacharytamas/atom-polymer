@@ -1,5 +1,5 @@
 ## 0.5.0 - Adding more snippets.
-* Added `paper-scroll-header-panel` snippet.
+* Added `paper-scroll-header-panel`, `paper-header-panel`, `paper-input-container`, and `paper-textarea` snippets.
 * Added `iron-pages` snippet.
 
 ## 0.4.1 - Fix bug where sometimes snippets didn't register.
