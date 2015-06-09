@@ -116,6 +116,7 @@ We include snippets of these Paper elements with sensible defaults:
 * `paper-toolbar`
 * `paper-scroll-header-panel`
 * `paper-header-panel`
+* `paper-icon-button`
 
 ### Iron elements
 

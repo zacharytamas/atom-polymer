@@ -24,7 +24,7 @@
       <paper-toolbar>${1:Header}</paper-toolbar>
       <div>${2:Content goes here...}</div>
     </paper-header-panel>
-    """  
+    """
   "paper toolbar":
     "prefix": "paper-toolbar"
     "body": """
@@ -48,6 +48,11 @@
     "body": """
     <paper-button ${1:raised}>${2:button}</paper-button>
     """
+  "paper icon button":
+    "prefix": "paper-icon-button"
+    "body": """
+    <paper-icon-button icon="${1:menu}""></paper-icon-button>
+    """
   "paper-input-container":
     "prefix": "paper-input"
     "body": """
@@ -60,4 +65,4 @@
     "prefix": "paper-textarea"
     "body": """
     <paper-textarea id="$1" label="${2:Textarea label}"$3></paper-textarea>
-    """  
+    """
