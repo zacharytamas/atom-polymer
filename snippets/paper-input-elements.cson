@@ -1,0 +1,21 @@
+# Paper Input components snippets
+
+".text.html":
+  "paper-input-container":
+    "prefix": "paper-input"
+    "body": """
+    <paper-input-container id="$1">
+      <label>${2:Input label}</label>
+      <input is="iron-input"$3>
+    </paper--container>
+    """
+  "paper input error":
+    "prefix": "paper-input-error"
+    "body": """
+    <paper-input-error>${1:Only numbers are allowed!}</paper-input-error>
+    """
+  "paper-textarea":
+    "prefix": "paper-textarea"
+    "body": """
+    <paper-textarea id="$1" label="${2:Textarea label}"$3></paper-textarea>
+    """

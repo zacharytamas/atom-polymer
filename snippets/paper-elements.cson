@@ -33,6 +33,11 @@
       <div main>${2:Main Panel}</div>
     </paper-drawer-panel>
     """
+  "paper floating action button":
+    "prefix": "paper-fab"
+    "body": """
+    <paper-fab ${1:mini} icon="${2:favorite}"></paper-fab>
+    """
   "paper header panel":
     "prefix": "paper-header-panel"
     "body": """
@@ -45,14 +50,6 @@
     "prefix": "paper-icon-button"
     "body": """
     <paper-icon-button icon="${1:menu}""></paper-icon-button>
-    """
-  "paper-input-container":
-    "prefix": "paper-input"
-    "body": """
-    <paper-input-container id="$1">
-      <label>${2:Input label}</label>
-      <input is="iron-input"$3>
-    </paper--container>
     """
   "paper scroll header panel":
     "prefix": "paper-scroll-header-panel"
@@ -70,11 +67,6 @@
       <paper-tab>${2:Tab 2}</paper-tab>
       <paper-tab>${3:Tab 3}</paper-tab>
     </paper-tabs>
-    """
-  "paper-textarea":
-    "prefix": "paper-textarea"
-    "body": """
-    <paper-textarea id="$1" label="${2:Textarea label}"$3></paper-textarea>
     """
   "paper toolbar":
     "prefix": "paper-toolbar"

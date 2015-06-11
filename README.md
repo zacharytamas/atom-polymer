@@ -114,6 +114,7 @@ We include snippets of these Paper elements with sensible defaults:
 * `paper-checkbox`
 * `paper-dialog`
 * `paper-drawer-panel`
+* `paper-fab`
 * `paper-tabs`
 * `paper-toolbar`
 * `paper-scroll-header-panel`

@@ -1,5 +1,5 @@
 ## 0.6.0 - Adding more snippets.
-* Added `paper-icon-button`, `paper-checkbox`, `paper-dialog` snippets.
+* Added `paper-icon-button`, `paper-checkbox`, `paper-dialog`, `paper-textarea`, `paper-input-error`, and `paper-fab` snippets.
 * Added `iron-image` and `iron-form` snippets.
 
 ## 0.5.0 - Adding more snippets.
