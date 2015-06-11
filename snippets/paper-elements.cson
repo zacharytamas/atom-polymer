@@ -6,6 +6,11 @@
     "body": """
     <paper-button ${1:raised}>${2:button}</paper-button>
     """
+  "paper checkbox":
+    "prefix": "paper-checkbox"
+    "body": """
+    <paper-checkbox ${1:checked}>${2:label}</paper-checkbox>
+    """
   "paper drawer panel":
     "prefix": "paper-drawer-panel"
     "body": """

@@ -111,6 +111,7 @@ This is handy if you need to add a visual presence to a Polymer element that did
 We include snippets of these Paper elements with sensible defaults:
 
 * `paper-button`
+* `paper-checkbox`
 * `paper-drawer-panel`
 * `paper-tabs`
 * `paper-toolbar`
