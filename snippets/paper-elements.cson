@@ -11,6 +11,20 @@
     "body": """
     <paper-checkbox ${1:checked}>${2:label}</paper-checkbox>
     """
+  "paper dialog":
+    "prefix": "paper-dialog"
+    "body": """
+    <paper-dialog>
+      <h2>${1:Header}</h2>
+      <paper-dialog-scrollable>
+        ${2:Lorem ipsum}
+      </paper-dialog-scrollable>
+      <div class="buttons">
+        <paper-button dialog-dismiss>${3:Cancel}</paper-button>
+        <paper-button dialog-confirm>${4:Accept}</paper-button>
+      </div>
+    </paper-dialog>
+    """
   "paper drawer panel":
     "prefix": "paper-drawer-panel"
     "body": """
