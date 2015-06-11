@@ -15,6 +15,11 @@
     "body": """
     <iron-icon icon="$1"></iron-icon>
     """
+  "iron-image":
+    "prefix": "iron-image"
+    "body": """
+    <iron-image src="${1:http://lorempixel.com/400/400}"></iron-image>$2
+    """
   "iron-pages":
     "prefix": "iron-pages"
     "body": """

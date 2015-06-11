@@ -124,4 +124,5 @@ We include snippets of these Iron elements with sensible defaults:
 
 * `iron-ajax`
 * `iron-icon`
+* `iron-image`
 * `iron-pages`
