@@ -1,6 +1,6 @@
 ## 0.6.0 - Adding more snippets.
 * Added `paper-icon-button` snippet.
-* Added `iron-image` snippet.
+* Added `iron-image` and `iron-form` snippets.
 
 ## 0.5.0 - Adding more snippets.
 * Added `paper-scroll-header-panel`, `paper-header-panel`, `paper-input-container`, and `paper-textarea` snippets.

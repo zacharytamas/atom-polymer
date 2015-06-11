@@ -10,6 +10,13 @@
       handle-as="json"
       on-response="handleResponse"></iron-ajax>
     """
+  "iron-form":
+    "prefix": "iron-form"
+    "body": """
+    <form is="iron-form" id="${1:form}" method="${2:post}" action="${3:/form/handler}">
+      $4
+    </form>
+    """
   "iron-icon":
     "prefix": "iron-icon"
     "body": """

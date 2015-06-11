@@ -123,6 +123,7 @@ We include snippets of these Paper elements with sensible defaults:
 We include snippets of these Iron elements with sensible defaults:
 
 * `iron-ajax`
+* `iron-form`
 * `iron-icon`
 * `iron-image`
 * `iron-pages`
