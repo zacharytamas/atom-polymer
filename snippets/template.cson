@@ -6,17 +6,17 @@
       $1
     </template>
     """
-  "template dom-repeat":
-    "prefix": "tm-repeat"
-    "body": """
-    <template is="dom-repeat" items="{{$1}}">
-      $2
-    </template>
-    """
   "template dom-if":
     "prefix": "tm-if"
     "body": """
     <template is="dom-if" if="$1">
+      $2
+    </template>
+    """
+  "template dom-repeat":
+    "prefix": "tm-repeat"
+    "body": """
+    <template is="dom-repeat" items="{{$1}}">
       $2
     </template>
     """
