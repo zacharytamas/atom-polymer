@@ -2,7 +2,7 @@
 
 ".text.html":
   "paper-input-container":
-    "prefix": "paper-input"
+    "prefix": "paper-input-container"
     "body": """
     <paper-input-container id="$1">
       <label>${2:Input label}</label>
