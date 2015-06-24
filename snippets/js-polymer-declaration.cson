@@ -1,0 +1,17 @@
+".source.js":
+  "Polymer: properties":
+    "prefix": "properties"
+    "body": """
+    properties: {
+      ${1:name}: {
+        type: ${2:Boolean}
+      }
+    }
+    """
+  "Polymer: ready()":
+    "prefix": "ready"
+    "body": """
+    ready: function() {
+      $1
+    }
+    """
