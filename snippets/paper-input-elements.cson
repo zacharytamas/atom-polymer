@@ -1,6 +1,11 @@
 # Paper Input components snippets
 
 ".text.html":
+  "paper-input":
+    "prefix": "paper-input"
+    "body": """
+    <paper-input label="${1:Input label}"></paper-input>
+    """
   "paper-input-container":
     "prefix": "paper-input-container"
     "body": """
