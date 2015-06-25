@@ -7,19 +7,48 @@
       $2
     });
     """
-  "Polymer: properties":
+  "Polymer: Declare properties":
     "prefix": "properties"
     "body": """
     properties: {
       ${1:name}: {
         type: ${2:Boolean}
-      }
+      }$3
+    }
+    """
+  "Polymer: New property":
+    "prefix": "prop"
+    "body": """
+    ${1:propertyName}: {
+      type: ${2:String},
+      $3
     }
     """
   "Polymer: ready()":
     "prefix": "ready"
     "body": """
     ready: function() {
+      $1
+    }
+    """
+  "Polymer: created()":
+    "prefix": "created"
+    "body": """
+    created: function() {
+      $1
+    }
+    """
+  "Polymer: attached()":
+    "prefix": "attached"
+    "body": """
+    attached: function() {
+      $1
+    }
+    """
+  "Polymer: detached()":
+    "prefix": "detached"
+    "body": """
+    detached: function() {
       $1
     }
     """
