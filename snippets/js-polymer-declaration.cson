@@ -1,4 +1,12 @@
 ".source.js":
+  "Polymer: Element declaration":
+    "prefix": "Polymer"
+    "body": """
+    Polymer({
+      is: "${1:my-element}",
+      $2
+    });
+    """
   "Polymer: properties":
     "prefix": "properties"
     "body": """

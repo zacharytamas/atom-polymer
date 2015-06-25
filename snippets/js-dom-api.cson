@@ -1,0 +1,4 @@
+".source.js":
+  "Polymer: DOM wrapper":
+    "prefix": "pdom"
+    "body": "Polymer.dom(${1:this}).$2;"
