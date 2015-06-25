@@ -51,6 +51,13 @@
     "body": """
     <paper-icon-button icon="${1:menu}""></paper-icon-button>
     """
+  "paper material":
+    "prefix": "paper-material"
+    "body": """
+    <paper-material elevation="${1:1}">
+      $2
+    </paper-material>
+    """
   "paper scroll header panel":
     "prefix": "paper-scroll-header-panel"
     "body": """
