@@ -1,3 +1,7 @@
+## 0.7.0 - Adding more snippets.
+* A first! Added JS snippets for: Polymer's DOM wrapper, Polymer element declaration, Polymer properties shortcut, and Polymer lifecycle hooks.
+* Added `paper-input` and `paper-material` snippets.
+
 ## 0.6.0 - Adding more snippets.
 * Added `paper-icon-button`, `paper-checkbox`, `paper-dialog`, `paper-textarea`, `paper-input-error`, and `paper-fab` snippets.
 * Added `iron-image` and `iron-form` snippets.
