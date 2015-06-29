@@ -1,3 +1,6 @@
+## 0.7.1 - Add trailing commas to JS snippets.
+* It is statistically much more likely you want a trailing comma than you don't.
+
 ## 0.7.0 - Adding more snippets.
 * A first! Added JS snippets for: Polymer's DOM wrapper, Polymer element declaration, Polymer properties shortcut, and Polymer lifecycle hooks.
 * Added `paper-input` and `paper-material` snippets.
