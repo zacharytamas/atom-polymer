@@ -22,33 +22,34 @@
     ${1:propertyName}: {
       type: ${2:String},
       $3
-    }
+    }${4:,}
+    $5
     """
   "Polymer: ready()":
     "prefix": "ready"
     "body": """
     ready: function() {
       $1
-    }
+    },
     """
   "Polymer: created()":
     "prefix": "created"
     "body": """
     created: function() {
       $1
-    }
+    },
     """
   "Polymer: attached()":
     "prefix": "attached"
     "body": """
     attached: function() {
       $1
-    }
+    },
     """
   "Polymer: detached()":
     "prefix": "detached"
     "body": """
     detached: function() {
       $1
-    }
+    },
     """
