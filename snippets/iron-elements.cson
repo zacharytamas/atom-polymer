@@ -49,9 +49,16 @@
   "iron-localstorage":
     "prefix": "iron-localstorage"
     "body": """
-      <iron-localstorage
-        name="${0:my-app-storage}"
-        value="{{${1:cartoon}}}"></iron-localstorage>
+    <iron-localstorage
+      name="${0:my-app-storage}"
+      value="{{${1:cartoon}}}"></iron-localstorage>
+    """
+  "iron-media-query":
+    "prefix": "iron-media-query"
+    "body": """
+    <iron-media-query
+      query="${1:(min-width: 600px)}"
+      query-matches="{{${2:queryMatches}}}"></iron-media-query>
     """
   "iron-pages":
     "prefix": "iron-pages"
