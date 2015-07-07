@@ -46,6 +46,13 @@
     "body": """
     <input is="iron-input" bind-value={{${1:myValue}}}"">
     """
+  "iron-localstorage":
+    "prefix": "iron-localstorage"
+    "body": """
+      <iron-localstorage
+        name="${0:my-app-storage}"
+        value="{{${1:cartoon}}}"></iron-localstorage>
+    """
   "iron-pages":
     "prefix": "iron-pages"
     "body": """
