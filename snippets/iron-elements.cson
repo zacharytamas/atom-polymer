@@ -41,6 +41,11 @@
     "body": """
     <iron-image src="${1:http://lorempixel.com/400/400}"></iron-image>$2
     """
+  "iron-input":
+    "prefix": "iron-input"
+    "body": """
+    <input is="iron-input" bind-value={{${1:myValue}}}"">
+    """
   "iron-pages":
     "prefix": "iron-pages"
     "body": """
