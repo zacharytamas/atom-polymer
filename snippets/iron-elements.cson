@@ -29,6 +29,13 @@
     "body": """
     <iron-icon icon="$1"></iron-icon>
     """
+  "iron-iconset":
+    "prefix": "iron-iconset"
+    "body": """
+    <iron-iconset id="${1:my-icons}" src="${2:my-icons.png}" width="${3:96}" iconSize="${4:24}"
+        icons="${5:location place}">
+    </iron-iconset>
+    """
   "iron-image":
     "prefix": "iron-image"
     "body": """
