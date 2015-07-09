@@ -58,6 +58,14 @@
       $2
     </paper-material>
     """
+  "paper menu":
+    "prefix": "paper-menu"
+    "body": """
+    <paper-menu${1: multi}>
+      <paper-item>${2:Item 1}</paper-item>
+      <paper-item>${3:Item 2}</paper-item>
+    </paper-menu>
+    """
   "paper scroll header panel":
     "prefix": "paper-scroll-header-panel"
     "body": """
