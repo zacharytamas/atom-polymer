@@ -1,0 +1,16 @@
+{
+  "tags": {
+    "fin-fv": {
+      "attributes": [
+        "nper",
+        "payment",
+        "presentValue",
+        "rate",
+        "type",
+        "value",
+        null,
+        null
+      ]
+    }
+  }
+}
