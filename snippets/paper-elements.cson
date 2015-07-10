@@ -69,6 +69,9 @@
   "paper progress":
     "prefix": "paper-progress"
     "body": "<paper-progress value="${1:10}"></paper-progress>"
+  "paper radio button":
+    "prefix": "paper-radio-button"
+    "body": "<paper-radio-button${1: checked}></paper-radio-button>"
   "paper scroll header panel":
     "prefix": "paper-scroll-header-panel"
     "body": """
