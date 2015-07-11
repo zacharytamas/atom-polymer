@@ -81,6 +81,11 @@
       <paper-radio-button name="${6:large}" label="${7:Large}"></paper-radio-button>
     </paper-radio-group>
     """
+  "paper ripple":
+    "prefix": "paper-ripple"
+    "body": """
+    <paper-ripple></paper-ripple>
+    """
   "paper scroll header panel":
     "prefix": "paper-scroll-header-panel"
     "body": """
