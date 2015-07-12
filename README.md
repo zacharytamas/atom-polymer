@@ -115,18 +115,30 @@ We include snippets of these Paper elements with sensible defaults:
 * `paper-dialog`
 * `paper-drawer-panel`
 * `paper-fab`
-* `paper-tabs`
-* `paper-toolbar`
-* `paper-scroll-header-panel`
 * `paper-header-panel`
 * `paper-icon-button`
+* `paper-menu`
+* `paper-progress`
+* `paper-radio-button`
+* `paper-radio-group`
+* `paper-ripple`
+* `paper-scroll-header-panel`
+* `paper-slider`
+* `paper-spinner`
+* `paper-tabs`
+* `paper-toolbar`
 
 ### Iron elements
 
 We include snippets of these Iron elements with sensible defaults:
 
 * `iron-ajax`
+* `iron-collapse`
 * `iron-form`
 * `iron-icon`
+* `iron-iconset`
 * `iron-image`
+* `iron-input`
+* `iron-localstorage`
+* `iron-media-query`
 * `iron-pages`
