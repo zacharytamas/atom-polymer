@@ -1,3 +1,6 @@
+### 0.8.1 - CSON escaping issue
+* Fixed silly but tragic CSON escaping issue. Thanks to @clintwood !
+
 ## 0.8.0 - Add more snippets.
 * Added `iron-collapse`, `iron-iconset`, `iron-input`, `iron-localstorage`, and `iron-media-query`.
 * Added `paper-menu`, `paper-progress`, `paper-radio-button`, `paper-radio-group`, `paper-ripple`, `paper-slider`, and `paper-spinner`.
