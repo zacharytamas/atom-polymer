@@ -96,7 +96,7 @@
     """
   "paper slider":
     "prefix": "paper-slider"
-    "body": "<paper-slider min="${0:10}" max="${1:200}" value="${2:110}"></paper-slider>"
+    "body": """<paper-slider min="${0:10}" max="${1:200}" value="${2:110}"></paper-slider>"""
   "paper spinner":
     "prefix": "paper-spinner"
     "body": "<paper-spinner${1: active}></paper-spinner>"
