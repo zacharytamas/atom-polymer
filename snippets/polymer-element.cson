@@ -7,20 +7,19 @@
     <dom-module id="$2">
       <style>
         :host {
-          display: block;
+          $5
         }
       </style>
       <template>
         $4
       </template>
+      <script>
+        Polymer({
+          is: '$2',
+          $3
+        });
+      </script>
     </dom-module>
-
-    <script>
-      Polymer({
-        is: '$2',
-        $3
-      });
-    </script>
     """
   "polymer element no template":
     "prefix": "pen"
