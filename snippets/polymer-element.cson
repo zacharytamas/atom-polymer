@@ -33,3 +33,21 @@
       });
     </script>
     """
+  "polymer element external script":
+    "prefix": "pes"
+    "body": """
+    <link rel="import" href="${1:../bower_components}/polymer/polymer.html">
+
+    <dom-module id="$2">
+      <style>
+        :host {
+          $5
+        }
+      </style>
+      <template>
+        $4
+      </template>
+      <script src="$3">
+      </script>
+    </dom-module>
+    """
