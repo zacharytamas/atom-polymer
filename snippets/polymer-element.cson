@@ -5,12 +5,12 @@
     <link rel="import" href="${1:../bower_components}/polymer/polymer.html">
 
     <dom-module id="$2">
-      <style>
-        :host {
-          $5
-        }
-      </style>
       <template>
+        <style>
+          :host {
+            $5
+          }
+        </style>
         $4
       </template>
       <script>
@@ -39,12 +39,12 @@
     <link rel="import" href="${1:../bower_components}/polymer/polymer.html">
 
     <dom-module id="$2">
-      <style>
-        :host {
-          $5
-        }
-      </style>
       <template>
+        <style>
+          :host {
+            $5
+          }
+        </style>
         $4
       </template>
       <script src="$3">
@@ -57,15 +57,15 @@
     <link rel="import" href="${1:../bower_components}/polymer/polymer.html">
 
     <dom-module id="$2">
-      <style>
-        :host {
-          $4
-        }
-        .content-wrapper > ::content {
-          $5
-        }
-      </style>
       <template>
+        <style>
+          :host {
+            $4
+          }
+          .content-wrapper > ::content {
+            $5
+          }
+        </style>
         $3
         <div class="content-wrapper">
           <content></content>
