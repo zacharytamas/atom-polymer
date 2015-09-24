@@ -51,3 +51,25 @@
       </script>
     </dom-module>
     """
+  "polymer element template only":
+    "prefix": "pet"
+    "body": """
+    <link rel="import" href="${1:../bower_components}/polymer/polymer.html">
+
+    <dom-module id="$2">
+      <style>
+        :host {
+          $4
+        }
+        .content-wrapper > ::content {
+          $5
+        }
+      </style>
+      <template>
+        $3
+        <div class="content-wrapper">
+          <content></content>
+        </div>
+      </template>
+    </dom-module>
+    """
