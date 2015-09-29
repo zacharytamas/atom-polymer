@@ -47,8 +47,7 @@
         </style>
         $4
       </template>
-      <script src="$3">
-      </script>
+      <script src="$3"></script>
     </dom-module>
     """
   "polymer element template only":
