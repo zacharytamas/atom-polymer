@@ -1,9 +1,13 @@
-## 0.9.0 - Format tweaks
+## 0.10.0 - Format tweaks
 * Updates to documentation. Thanks @jreut!
 * Fix problem with `paper-icon-button` snippet. (There was an extra quotation mark.)
 * Move `<style>` tag inside `<template>` in all snippets. (@jreut)
 * Optionally add `bower_components` to default path when Polymer is imported in the Polymer Element snippets. (@jreut)
 * Add a snippet for Polymer Elements with only style and template. (@jreut)
+
+## 0.9.0 - Whoops
+* A glitch in `apm` caused me to accidentally skip this version.
+* I tried to publish a new minor version without a token and it incremented the version number before it realized the problem. When I added the token and tried to publish again it bumped the version AGAIN, skipping this one.
 
 ## 0.8.1 - CSON escaping issue
 * Fixed silly but tragic CSON escaping issue. Thanks to @clintwood !
