@@ -31,18 +31,30 @@ Develop for Polymer 1.0+ faster with Atom.
 #### [pe] Polymer element with template and style
 
 ```html
-${1:<link rel="import" href="../polymer/polymer.html">}
+<link rel="import" href="${1:../bower_components}/polymer/polymer.html">
 
 <dom-module id="$2">
-  <style>
-    :host {
-      display: block;
-    }
-  </style>
   <template>
+    <style>
+      :host {
+        $5
+      }
+    </style>
     $4
   </template>
+  <script>
+    Polymer({
+      is: '$2',
+      $3
+    });
+  </script>
 </dom-module>
+```
+
+#### [pen] Polymer element without template
+
+```html
+<link rel="import" href="${1:../bower_components}/polymer/polymer.html">
 
 <script>
   Polymer({
@@ -51,16 +63,47 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
   });
 </script>
 ```
-
-#### [pen] Polymer element without template
+#### [pes] Polymer element with an external script source
 
 ```html
-<script>
-  Polymer({
-    is: '$1',
-    $2
-  });
-</script>
+<link rel="import" href="${1:../bower_components}/polymer/polymer.html">
+
+<dom-module id="$2">
+  <template>
+    <style>
+      :host {
+        $5
+      }
+    </style>
+    $4
+  </template>
+  <script src="$3">
+  </script>
+</dom-module>
+```
+
+#### [pet] Polymer element with a template only
+This snippet also provides a wrapper div for `<content>` and a style declaration.
+
+```html
+<link rel="import" href="${1:../bower_components}/polymer/polymer.html">
+
+<dom-module id="$2">
+  <template>
+    <style>
+      :host {
+        $4
+      }
+      .content-wrapper > ::content {
+        $5
+      }
+    </style>
+    $3
+    <div class="content-wrapper">
+      <content></content>
+    </div>
+  </template>
+</dom-module>
 ```
 
 ### [dom-module] A blank `dom-module` element
