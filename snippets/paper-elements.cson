@@ -49,7 +49,7 @@
   "paper icon button":
     "prefix": "paper-icon-button"
     "body": """
-    <paper-icon-button icon="${1:menu}""></paper-icon-button>
+    <paper-icon-button icon="${1:menu}"></paper-icon-button>
     """
   "paper material":
     "prefix": "paper-material"

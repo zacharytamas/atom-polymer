@@ -3,3 +3,5 @@ The following GitHub users have contributed to this Atom package. Much appreciat
 * [zacharytamas](https://github.com/zacharytamas)
 * [daiying-zhang](https://github.com/daiying-zhang)
 * [chuckh](https://github.com/chuckh)
+* [clintwood](https://github.com/clintwood)
+* [jreut](https://github.com/jreut)

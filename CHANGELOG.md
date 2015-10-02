@@ -1,4 +1,11 @@
-### 0.8.1 - CSON escaping issue
+## 0.9.0 - Format tweaks
+* Updates to documentation. Thanks @jreut!
+* Fix problem with `paper-icon-button` snippet. (There was an extra quotation mark.)
+* Move `<style>` tag inside `<template>` in all snippets. (@jreut)
+* Optionally add `bower_components` to default path when Polymer is imported in the Polymer Element snippets. (@jreut)
+* Add a snippet for Polymer Elements with only style and template. (@jreut)
+
+## 0.8.1 - CSON escaping issue
 * Fixed silly but tragic CSON escaping issue. Thanks to @clintwood !
 
 ## 0.8.0 - Add more snippets.
