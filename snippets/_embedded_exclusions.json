@@ -1,39 +1,49 @@
 {
   ".text.html .embedded": {
     "iron-form": {
+      "body": "iron-form",
       "prefix": "iron-form"
     },
     "paper-button": {
+      "body": "paper-button",
       "prefix": "paper-button"
     },
     "iron-iconset": {
+      "body": "iron-iconset",
       "prefix": "iron-iconset"
-    },
-    "iron-media-query": {
-      "prefix": "iron-media-query"
     }, 
+    "iron-media-query": {
+      "body": "iron-media-query",
+      "prefix": "iron-media-query"
+    },
     "paper-dialog": {
+      "body": "paper-dialog",
       "prefix": "paper-dialog"
     },
     "tm-if": {
       "prefix": "tm-if"
     },
     "paper-menu": {
+      "body": "paper-menu",
       "prefix": "paper-menu"
     },
     "paper-scroll-header-panel": {
+      "body": "paper-scroll-header-panel",
       "prefix": "paper-scroll-header-panel"
     },
     "paper-checkbox": {
+      "body": "paper-checkbox",
       "prefix": "paper-checkbox"
     },
     "dom-module": {
       "prefix": "dom-module"
     },
     "paper-slider": {
+      "body": "paper-slider",
       "prefix": "paper-slider"
     },
     "iron-input": {
+      "body": "iron-input",
       "prefix": "iron-input"
     },
     "pet": {
@@ -43,9 +53,11 @@
       "prefix": "pen"
     },
     "gold-email-input": {
+      "body": "gold-email-input",
       "prefix": "gold-email-input"
     },
     "iron-icon": {
+      "body": "iron-icon",
       "prefix": "iron-icon"
     },
     "tm-repeat": {
@@ -55,6 +67,7 @@
       "prefix": "pes"
     },
     "paper-ripple": {
+      "body": "paper-ripple",
       "prefix": "paper-ripple"
     },
     "tm": {
@@ -64,90 +77,116 @@
       "prefix": "pe"
     },
     "paper-input": {
+      "body": "paper-input",
       "prefix": "paper-input"
     },
     "paper-header-panel": {
+      "body": "paper-header-panel",
       "prefix": "paper-header-panel"
     },
     "iron-ajax": {
+      "body": "iron-ajax",
       "prefix": "iron-ajax"
     },
     "gold-cc-expiration-input": {
+      "body": "gold-cc-expiration-input",
       "prefix": "gold-cc-expiration-input"
     },
     "paper-radio-group": {
+      "body": "paper-radio-group",
       "prefix": "paper-radio-group"
     },
     "hip": {
       "prefix": "hip"
     },
     "iron-pages": {
+      "body": "iron-pages",
       "prefix": "iron-pages"
     },
     "paper-icon-button": {
+      "body": "paper-icon-button",
       "prefix": "paper-icon-button"
     },
     "iron-image": {
+      "body": "iron-image",
       "prefix": "iron-image"
     },
     "paper-fab": {
+      "body": "paper-fab",
       "prefix": "paper-fab"
     },
     "paper-toolbar": {
+      "body": "paper-toolbar",
       "prefix": "paper-toolbar"
     },
     "paper-tabs": {
+      "body": "paper-tabs",
       "prefix": "paper-tabs"
     },
     "google-feeds": {
+      "body": "google-feeds",
       "prefix": "google-feeds"
     },
     "iron-collapse": {
+      "body": "iron-collapse",
       "prefix": "iron-collapse"
     },
     "paper-input-container": {
+      "body": "paper-input-container",
       "prefix": "paper-input-container"
     },
     "hii": {
       "prefix": "hii"
     },
     "paper-radio-button": {
+      "body": "paper-radio-button",
       "prefix": "paper-radio-button"
     },
     "gold-cc-input": {
+      "body": "gold-cc-input",
       "prefix": "gold-cc-input"
     },
     "paper-spinner": {
+      "body": "paper-spinner",
       "prefix": "paper-spinner"
     },
     "paper-drawer-panel": {
+      "body": "paper-drawer-panel",
       "prefix": "paper-drawer-panel"
     },
     "iron-localstorage": {
+      "body": "iron-localstorage",
       "prefix": "iron-localstorage"
     },
     "gold-zip-input": {
+      "body": "gold-zip-input",
       "prefix": "gold-zip-input"
     },
     "gold-phone-input": {
+      "body": "gold-phone-input",
       "prefix": "gold-phone-input"
     },
     "hi": {
       "prefix": "hi"
     },
     "paper-progress": {
+      "body": "paper-progress",
       "prefix": "paper-progress"
     },
     "gold-cc-cvc-input": {
+      "body": "gold-cc-cvc-input",
       "prefix": "gold-cc-cvc-input"
     },
     "paper-material": {
+      "body": "paper-material",
       "prefix": "paper-material"
     },
     "paper-textarea": {
+      "body": "paper-textarea",
       "prefix": "paper-textarea"
     },
     "paper-input-error": {
+      "body": "paper-input-error",
       "prefix": "paper-input-error"
     }
   }

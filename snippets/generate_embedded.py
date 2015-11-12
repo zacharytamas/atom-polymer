@@ -7,6 +7,7 @@ import cson
 
 HTML_SCOPE = ".text.html"
 OUTPUT_FILENAME = "_embedded_exclusions.json"
+ELEMENT_FAMILIES = ["paper", "iron", "google", "gold"]
 
 
 def allSnippetsFiles():
@@ -23,11 +24,18 @@ def snippetsInFileForScope(file_name, scope=HTML_SCOPE):
 
 
 def renderExceptions(snippets):
+
+  for snip in snippets:
+    # If the element snippet is for a family of Polymer elements,
+    # replace its body with just the name of the snippet. This will
+    # let you auto-complete long element names in CSS and JavaScript.
+    if snip.get("prefix", "").split("-")[0] in ELEMENT_FAMILIES:
+      snip["body"] = snip["prefix"]
+    else:
+      del snip["body"]
+
   return cson.dumps({
-    ".text.html .embedded": dict(
-      (s["prefix"], {
-        "prefix": s["prefix"]
-      }) for s in snippets)
+    ".text.html .embedded": dict((s["prefix"], s) for s in snippets)
   }, indent=2)
 
 
