@@ -1,3 +1,6 @@
+## 0.11.0 - Add Gold snippets
+* Added snippets for all `gold` elements from Polymer.
+
 ## 0.10.0 - Format tweaks
 * Updates to documentation. Thanks @jreut!
 * Fix problem with `paper-icon-button` snippet. (There was an extra quotation mark.)
