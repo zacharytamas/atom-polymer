@@ -1,0 +1,154 @@
+{
+  ".text.html .embedded": {
+    "iron-form": {
+      "prefix": "iron-form"
+    },
+    "paper-button": {
+      "prefix": "paper-button"
+    },
+    "iron-iconset": {
+      "prefix": "iron-iconset"
+    },
+    "iron-media-query": {
+      "prefix": "iron-media-query"
+    }, 
+    "paper-dialog": {
+      "prefix": "paper-dialog"
+    },
+    "tm-if": {
+      "prefix": "tm-if"
+    },
+    "paper-menu": {
+      "prefix": "paper-menu"
+    },
+    "paper-scroll-header-panel": {
+      "prefix": "paper-scroll-header-panel"
+    },
+    "paper-checkbox": {
+      "prefix": "paper-checkbox"
+    },
+    "dom-module": {
+      "prefix": "dom-module"
+    },
+    "paper-slider": {
+      "prefix": "paper-slider"
+    },
+    "iron-input": {
+      "prefix": "iron-input"
+    },
+    "pet": {
+      "prefix": "pet"
+    },
+    "pen": {
+      "prefix": "pen"
+    },
+    "gold-email-input": {
+      "prefix": "gold-email-input"
+    },
+    "iron-icon": {
+      "prefix": "iron-icon"
+    },
+    "tm-repeat": {
+      "prefix": "tm-repeat"
+    },
+    "pes": {
+      "prefix": "pes"
+    },
+    "paper-ripple": {
+      "prefix": "paper-ripple"
+    },
+    "tm": {
+      "prefix": "tm"
+    },
+    "pe": {
+      "prefix": "pe"
+    },
+    "paper-input": {
+      "prefix": "paper-input"
+    },
+    "paper-header-panel": {
+      "prefix": "paper-header-panel"
+    },
+    "iron-ajax": {
+      "prefix": "iron-ajax"
+    },
+    "gold-cc-expiration-input": {
+      "prefix": "gold-cc-expiration-input"
+    },
+    "paper-radio-group": {
+      "prefix": "paper-radio-group"
+    },
+    "hip": {
+      "prefix": "hip"
+    },
+    "iron-pages": {
+      "prefix": "iron-pages"
+    },
+    "paper-icon-button": {
+      "prefix": "paper-icon-button"
+    },
+    "iron-image": {
+      "prefix": "iron-image"
+    },
+    "paper-fab": {
+      "prefix": "paper-fab"
+    },
+    "paper-toolbar": {
+      "prefix": "paper-toolbar"
+    },
+    "paper-tabs": {
+      "prefix": "paper-tabs"
+    },
+    "google-feeds": {
+      "prefix": "google-feeds"
+    },
+    "iron-collapse": {
+      "prefix": "iron-collapse"
+    },
+    "paper-input-container": {
+      "prefix": "paper-input-container"
+    },
+    "hii": {
+      "prefix": "hii"
+    },
+    "paper-radio-button": {
+      "prefix": "paper-radio-button"
+    },
+    "gold-cc-input": {
+      "prefix": "gold-cc-input"
+    },
+    "paper-spinner": {
+      "prefix": "paper-spinner"
+    },
+    "paper-drawer-panel": {
+      "prefix": "paper-drawer-panel"
+    },
+    "iron-localstorage": {
+      "prefix": "iron-localstorage"
+    },
+    "gold-zip-input": {
+      "prefix": "gold-zip-input"
+    },
+    "gold-phone-input": {
+      "prefix": "gold-phone-input"
+    },
+    "hi": {
+      "prefix": "hi"
+    },
+    "paper-progress": {
+      "prefix": "paper-progress"
+    },
+    "gold-cc-cvc-input": {
+      "prefix": "gold-cc-cvc-input"
+    },
+    "paper-material": {
+      "prefix": "paper-material"
+    },
+    "paper-textarea": {
+      "prefix": "paper-textarea"
+    },
+    "paper-input-error": {
+      "prefix": "paper-input-error"
+    }
+  }
+}
