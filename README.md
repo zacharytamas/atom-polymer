@@ -185,3 +185,12 @@ We include snippets of these Iron elements with sensible defaults:
 * `iron-localstorage`
 * `iron-media-query`
 * `iron-pages`
+
+### Gold elements
+
+* `gold-cc-cvc-input`
+* `gold-cc-expiration-input`
+* `gold-cc-input`
+* `gold-email-input`
+* `gold-phone-input`
+* `gold-zip-input`

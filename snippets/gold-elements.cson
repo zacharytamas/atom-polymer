@@ -1,0 +1,31 @@
+# Gold components snippets
+
+".text.html":
+  "gold-cc-cvc-input":
+    "prefix": "gold-cc-cvc-input"
+    "body": """
+    <gold-cc-cvc-input card-type="${2:[[cardType]]}"></gold-cc-cvc-input>
+    """
+  "gold-cc-expiration-input":
+    "prefix": "gold-cc-expiration-input"
+    "body": """
+    <gold-cc-expiration-input value="${1:11/15}"></gold-cc-expiration-input>
+    """
+  "gold-cc-input":
+    "prefix": "gold-cc-input"
+    "body": """<gold-cc-input label="$1" ${2:auto-validate}></gold-cc-input>"""
+  "gold-email-input":
+    "prefix": "gold-email-input"
+    "body": """
+    <gold-email-input value="$1" ${2:auto-validate}></gold-email-input>
+    """
+  "gold-phone-input":
+    "prefix": "gold-phone-input"
+    "body": """
+    <gold-phone-input value="$1" ${2:auto-validate}></gold-phone-input>
+    """
+  "gold-zip-input":
+    "prefix": "gold-zip-input"
+    "body": """
+    <gold-zip-input value="$1" ${2:auto-validate}></gold-zip-input>
+    """
