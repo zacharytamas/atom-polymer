@@ -1,3 +1,7 @@
+## 0.12.0 - Add auto-completion to embedded contexts.
+* This makes `atom-polymer` smart enough to not auto-complete whole HTML structures in `<style>` tags, which it did before.
+* Now will just auto-complete the *name* of the element, which is really handy when writing selectors for long element names.
+
 ## 0.11.0 - Add Gold snippets
 * Added snippets for all `gold` elements from Polymer.
 
