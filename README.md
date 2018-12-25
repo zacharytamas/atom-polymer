@@ -1,5 +1,7 @@
 # atom-polymer
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zacharytamas/atom-polymer.svg)](https://greenkeeper.io/)
+
 Develop for Polymer 1.0+ faster with Atom.
 
 ## Snippets
